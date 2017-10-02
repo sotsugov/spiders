@@ -1,0 +1,9 @@
+2017-10-02 11:10:14.237435
+[data] Transport for London plans to collect data from passengers' mobiles: http://news.sky.com/story/tfl-may-make-322m-by-selling-on-data-from-passengers-mobiles-via-tube-wifi-11056118
+[data] Text Editor: Data Structures: http://www.averylaird.com/programming/editor/2017/09/30/the-piece-table/
+2017-10-02 11:10:29.906068
+[data] Transport for London plans to collect data from passengers' mobiles: http://news.sky.com/story/tfl-may-make-322m-by-selling-on-data-from-passengers-mobiles-via-tube-wifi-11056118
+[data] Text Editor: Data Structures: http://www.averylaird.com/programming/editor/2017/09/30/the-piece-table/
+2017-10-02 12:33:42.743862
+[data] Transport for London plans to collect data from passengers' mobiles: http://news.sky.com/story/tfl-may-make-322m-by-selling-on-data-from-passengers-mobiles-via-tube-wifi-11056118
+[data] Text Editor: Data Structures: http://www.averylaird.com/programming/editor/2017/09/30/the-piece-table/
