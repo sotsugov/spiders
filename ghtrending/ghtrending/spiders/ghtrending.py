@@ -13,9 +13,11 @@ class GitHubTrendingSpider(scrapy.Spider):
             yield scrapy.Request(url=url.format(language), callback=self.parse)
 
     def parse(self, response):
-        for item in response.css('.repo-list'):
-
+        for repo in response.css('ol.repo-list li'):
+            try_desc = repo.css('p::text').extract_first()
             yield {
-                "repo": item.css('li div h3 a::attr(href)').extract(),
-                "title": item.css('li .py-1 p::text').extract(),
+                'title': repo.css('a::attr(href)').extract_first(),
+                'desc': try_desc.strip() if try_desc else 'No description',
+                'authors': repo.css('img::attr(title)').extract()
             }
+

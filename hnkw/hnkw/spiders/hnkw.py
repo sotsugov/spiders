@@ -3,6 +3,7 @@ import os
 import scrapy
 from datetime import datetime
 
+
 class HackerNewsSpider(scrapy.Spider):
     name = "hnkw"
     stories = {}

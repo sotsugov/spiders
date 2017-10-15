@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
 import scrapy
-from datetime import datetime
 
 
 class RedditDailyTopSpider(scrapy.Spider):
